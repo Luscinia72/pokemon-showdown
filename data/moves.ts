@@ -4386,7 +4386,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	drainingkiss: {
 		num: 577,
 		accuracy: 100,
-		basePower: 50,
+		basePower: 105,
 		category: "Special",
 		name: "Draining Kiss",
 		pp: 10,
@@ -5840,7 +5840,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	flamethrower: {
 		num: 53,
 		accuracy: 100,
-		basePower: 90,
+		basePower: 10,
 		category: "Special",
 		name: "Flamethrower",
 		pp: 15,
@@ -6386,7 +6386,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	freezedry: {
 		num: 573,
 		accuracy: 100,
-		basePower: 70,
+		basePower: 145,
 		category: "Special",
 		name: "Freeze-Dry",
 		pp: 20,
@@ -8925,7 +8925,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	hex: {
 		num: 506,
 		accuracy: 100,
-		basePower: 65,
+		basePower: 80,
 		basePowerCallback(pokemon, target, move) {
 			if (target.status || target.hasAbility('comatose')) {
 				this.debug('BP doubled from status condition');
@@ -8935,7 +8935,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		category: "Special",
 		name: "Hex",
-		pp: 10,
+		pp: 25,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: null,
@@ -10757,7 +10757,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	lightthatburnsthesky: {
 		num: 723,
 		accuracy: true,
-		basePower: 200,
+		basePower: 245,
 		category: "Special",
 		isNonstandard: "Past",
 		name: "Light That Burns the Sky",
@@ -13830,7 +13830,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	photongeyser: {
 		num: 722,
 		accuracy: 100,
-		basePower: 100,
+		basePower: 130,
 		category: "Special",
 		name: "Photon Geyser",
 		pp: 5,
@@ -14046,7 +14046,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	poisontail: {
 		num: 342,
 		accuracy: 100,
-		basePower: 50,
+		basePower: 135,
 		category: "Physical",
 		name: "Poison Tail",
 		pp: 25,
@@ -19157,7 +19157,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	sunsteelstrike: {
 		num: 713,
 		accuracy: 100,
-		basePower: 100,
+		basePower: 130,
 		category: "Physical",
 		name: "Sunsteel Strike",
 		pp: 5,
@@ -21303,7 +21303,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	waterfall: {
 		num: 127,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 125,
 		category: "Physical",
 		name: "Waterfall",
 		pp: 15,
@@ -21423,7 +21423,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	watershuriken: {
 		num: 594,
 		accuracy: 100,
-		basePower: 15,
+		basePower: 60,
 		basePowerCallback(pokemon, target, move) {
 			if (pokemon.species.name === 'Greninja-Ash' && pokemon.hasAbility('battlebond') &&
 				!pokemon.transformed) {
